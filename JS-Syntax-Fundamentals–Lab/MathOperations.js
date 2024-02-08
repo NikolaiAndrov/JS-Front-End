@@ -17,5 +17,3 @@ function mathOperations(a, b, operator) {
 
     console.log(result);
 }
-
-mathOperations(10, 10, "**");
