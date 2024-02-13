@@ -3,5 +3,3 @@ function spliter(text) {
     let matches = text.match(regex);
     console.log(matches.join(", "));
 }
-
-spliter('SplitMeIfYouCanHaHaYouCantOrYouCan');
