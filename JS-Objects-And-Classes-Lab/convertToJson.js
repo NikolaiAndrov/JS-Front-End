@@ -9,5 +9,3 @@ function createObjectAndConvertToJson(name, lastName, hairColor) {
 
     console.log(json);
 }
-
-createObjectAndConvertToJson('George', 'Jones', 'Brown'); 
