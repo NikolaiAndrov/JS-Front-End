@@ -1,3 +1,19 @@
 function addItem() {
-    console.log('TODO:...');
+    
+    let newItemText = document.getElementById("newItemText");
+    let newItemValue = document.getElementById("newItemValue");
+
+    if (newItemText.value === "" || newItemValue.value === "") {
+        return
+    }
+
+    let option = document.createElement("option");
+    option.textContent = newItemText.value;
+    option.value = newItemValue.value;
+
+    let menu = document.getElementById("menu");
+    menu.appendChild(option);
+
+    newItemText.value= "";
+    newItemValue.value = "";
 }
