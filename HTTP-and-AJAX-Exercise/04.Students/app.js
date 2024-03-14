@@ -54,6 +54,7 @@ async function attachEvents() {
             lastName.value = "";
             facultyNumber.value = "";
             grade.value = "";
+            
         }
     }
 }
