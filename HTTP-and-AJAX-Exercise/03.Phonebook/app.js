@@ -3,6 +3,7 @@ function attachEvents() {
     const url = "http://localhost:3030/jsonstore/phonebook/";
 
     document.getElementById("btnLoad").addEventListener("click", loadAllContacts);
+    
     document.getElementById("btnCreate").addEventListener("click", createContact);
     
     async function createContact() {
